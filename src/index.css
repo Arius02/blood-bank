@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.donor-path,
+.patient-path {
+  inset: 0;
+    z-index: 0;
+}
+  .donor-path{
+clip-path: polygon(100.2% 0%, 0% 0%, 0.3% 56.5%);
+}
+.patient-path {
+clip-path: polygon(0 50%, 100% 17%, 100% 100%, 0% 100%);}
+.donate {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.home-card{
+ @apply text-center col-span-4 lg:col-span-1 md:col-span-2 relative h-[200px] shadow-md rounded-md p-6 hover:scale-[1.05] ease-out duration-500 
+}
+.nav {
+  @apply sticky left-0 top-0 right-0 p-4 z-40 bg-white xl:justify-start justify-between flex items-center shadow-sm
+}
+.nav-link {
+  @apply duration-100 font-medium xl:text-lg lg:text-sm text-primary mx-2 pb-3 ease-out hover:border-b-2 border-primary
+}
+.card-image {
+  @apply flex flex-col items-center justify-center my-3 relative z-10
+}
+.card-content {
+  @apply font-display
+}
+.form-control{
+  @apply w-full focus:outline-none py-2 rounded-xl bg-white caret-primary placeholder:text-secondary p-1 text-primary shadow-lg px-2
+}
+.donation-card {
+  @apply w-full focus:outline-none bg-secondary rounded-md caret-white placeholder:text-white p-1 text-white
+}
+.donor-card{
+ @apply h-[350px] relative  rounded-2xl shadow-lg p-3 overflow-hidden z-10
+}
+.donation-icons{
+  @apply inline-block ml-2 text-2xl text-black opacity-80
+}
+.person-icons{
+  @apply inline-block ml-2 text-2xl text-black opacity-70
+}
+.donor-p {
+  @apply text-secondary mt-2 font-medium 
+}
+.rounded-upnormal {
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.steps {
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.ReactModalPortal{
+  position: absolute;
+  z-index: 99999999
 }
