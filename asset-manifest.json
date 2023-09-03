@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blood-bank/static/css/main.e0cddc7f.css",
-    "main.js": "/blood-bank/static/js/main.2a6b4d4c.js",
+    "main.js": "/blood-bank/static/js/main.ba1656ac.js",
     "static/js/381.82975e26.chunk.js": "/blood-bank/static/js/381.82975e26.chunk.js",
     "static/js/731.1a645a9b.chunk.js": "/blood-bank/static/js/731.1a645a9b.chunk.js",
     "static/js/673.675b81c4.chunk.js": "/blood-bank/static/js/673.675b81c4.chunk.js",
@@ -42,7 +42,7 @@
     "static/media/waves.svg": "/blood-bank/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "static/media/waves2.svg": "/blood-bank/static/media/waves2.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "main.e0cddc7f.css.map": "/blood-bank/static/css/main.e0cddc7f.css.map",
-    "main.2a6b4d4c.js.map": "/blood-bank/static/js/main.2a6b4d4c.js.map",
+    "main.ba1656ac.js.map": "/blood-bank/static/js/main.ba1656ac.js.map",
     "381.82975e26.chunk.js.map": "/blood-bank/static/js/381.82975e26.chunk.js.map",
     "731.1a645a9b.chunk.js.map": "/blood-bank/static/js/731.1a645a9b.chunk.js.map",
     "673.675b81c4.chunk.js.map": "/blood-bank/static/js/673.675b81c4.chunk.js.map",
@@ -60,6 +60,6 @@
   },
   "entrypoints": [
     "static/css/main.e0cddc7f.css",
-    "static/js/main.2a6b4d4c.js"
+    "static/js/main.ba1656ac.js"
   ]
 }
